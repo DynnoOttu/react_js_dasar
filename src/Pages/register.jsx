@@ -4,7 +4,7 @@ import AuthLayouts from "../components/Layout/AuthLayouts"
 
 const RegisterPage = () => {
     return (
-        <AuthLayouts title="Register">
+        <AuthLayouts title="Register" type="register">
             <FormRegister />
         </AuthLayouts>
     )
